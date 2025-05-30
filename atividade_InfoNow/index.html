@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>infoNow! - Painel de Informações</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>infoNow! Painel de Informações</h1>
+  </header>
+
+  <!-- CONTROLES -->
+  <section class="container">
+    <button onclick="buscarClimaPrompt()">Clima</button>
+    <button onclick="buscarFilmes()">Filmes Populares</button>
+    <button onclick="buscarPiada()">Piada</button>
+    <button onclick="buscarPaisAleatorio()">País Aleatório</button>
+    <button onclick="buscarNoticias()">Notícias BR</button>
+    <button onclick="buscarFato()">Fato Inútil</button>
+  </section>
+
+  <!-- PAINEL DINÂMICO -->
+  <main class="container">
+    <div id="painel"></div>
+  </main>
+
+  <footer class="footer">
+    &copy; 2025 infoNow! Todos os direitos reservados.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
